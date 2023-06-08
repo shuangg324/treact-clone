@@ -226,7 +226,6 @@ nav {
 .services__container {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .services {
@@ -290,7 +289,6 @@ nav {
   margin-top: 16px;
   text-align: left;
   font-size: 48px;
-  font-weight: 900;
 }
 
 .quality__para {
@@ -317,4 +315,67 @@ nav {
   justify-content: center;
   align-items: center;
   max-width: 150px;
+}
+
+/*STEPS*/
+
+.steps__wrapper {
+  display: flex;
+}
+
+.steps__logo {
+  width: 100%;
+}
+
+.steps__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.steps__right {
+  margin-left: 48px;
+  position: relative;
+  top:6px;
+}
+
+.steps__title {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+.steps__description {
+  font-size: 48px;
+  margin: 16px 0 0 0;
+}
+
+.steps__list{
+  margin-top:24px;
+}
+
+.steps {
+  display: flex;
+  margin: 16px 0 24px 0;
+}
+
+.steps__heading {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.steps__para {
+  max-width: 80%;
+}
+
+.steps__list--text {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps__number {
+  font-size: 36px;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(203 213 224 / var(--tw-text-opacity));
 }
