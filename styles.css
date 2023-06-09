@@ -473,3 +473,75 @@ nav {
 .values__logo {
   width: 100%;
 }
+
+
+/*PRICING*/
+
+.pricing__top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__para{
+  max-width:648px;
+  text-align: center;
+}
+
+.pricing__plans--wrapper{
+  display: flex;
+  /* flex-wrap:wrap; */
+
+}
+
+.pricing__plan{
+  display: flex;
+  flex-direction: column;
+  width:calc(100% / 3);
+  padding: 8px 32px 0 32px;
+  margin: 64px 32px 0 0;
+  text-align: center;
+}
+
+.pricing__color{
+  height:8px;
+  line-height:24px;
+  border-right-style:solid;
+  border-top-style:solid;
+  border-left-style:solid;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+
+.color__1{
+  background-image:linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
+.color__2{
+  background-image:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.pricing__plan--header{
+  display: flex;
+  flex-direction: column;
+  border-bottom-style:solid;
+  border-right-style:solid;
+  border-top-style:solid;
+  border-left-style:solid;
+  padding: 32px 0;
+  line-height:26px;
+  color: rgb(26, 32, 44);
+}
+
+.middle{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-image:linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%)
+}
+
+.pricing__plan--features{
+  display: flex;
+  flex-direction: column;
+}
