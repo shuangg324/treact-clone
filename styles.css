@@ -405,7 +405,7 @@ nav {
   text-align: left;
   max-width: 472px;
   padding-bottom: 24px;
-  font-size:18px;
+  font-size: 18px;
 }
 
 .values__wrapper {
@@ -425,7 +425,7 @@ nav {
 .values__text--title {
   margin-left: 12px;
   font-size: 24px;
-  font-weight:
+  font-weight: ;
 }
 
 .values__icon--left {
@@ -454,94 +454,175 @@ nav {
   align-items: center;
 }
 
-.values__text--para{
-  line-height:1.5;
+.values__text--para {
+  line-height: 1.5;
   font-size: 17px;
-  width:90%;
+  width: 90%;
 }
 
 .values__container--right {
   width: 50%;
 }
 
-.values__btn{
+.values__btn {
   display: flex;
   justify-content: center;
-  max-width:150px;
+  max-width: 150px;
 }
 
 .values__logo {
   width: 100%;
 }
 
-
 /*PRICING*/
 
-.pricing__top{
+.pricing__top {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.pricing__para{
-  max-width:648px;
+.pricing__para {
+  max-width: 648px;
   text-align: center;
 }
 
-.pricing__plans--wrapper{
+.pricing__plans--wrapper {
   display: flex;
   /* flex-wrap:wrap; */
-
 }
 
-.pricing__plan{
+.pricing__plan {
   display: flex;
   flex-direction: column;
-  width:calc(100% / 3);
+  width: calc(100% / 3);
   padding: 8px 32px 0 32px;
   margin: 64px 32px 0 0;
   text-align: center;
 }
 
-.pricing__color{
-  height:8px;
-  line-height:24px;
-  border-right-style:solid;
-  border-top-style:solid;
-  border-left-style:solid;
-  border-top-left-radius:8px;
-  border-top-right-radius:8px;
-}
+.pricing__color {
+  height: 8px;
 
-.color__1{
-  background-image:linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
-
-.color__2{
-  background-image:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
-}
-
-.pricing__plan--header{
-  display: flex;
-  flex-direction: column;
-  border-bottom-style:solid;
-  border-right-style:solid;
-  border-top-style:solid;
-  border-left-style:solid;
-  padding: 32px 0;
-  line-height:26px;
-  color: rgb(26, 32, 44);
-}
-
-.middle{
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  background-image:linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%)
 }
 
-.pricing__plan--features{
+.color__1 {
+  background-image: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.color__2 {
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.pricing__plan--header {
   display: flex;
   flex-direction: column;
+  border-bottom-style: solid;
+  border-right-style: solid;
+
+  border-left-style: solid;
+  padding: 32px 0;
+  line-height: 26px;
+  border-color: rgb(226, 232, 240);
+}
+
+.pricing__plan--middle {
+  display: flex;
+  flex-direction: column;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  color: rgb(247, 250, 252);
+  padding: 34px 0;
+  line-height: 26px;
+
+ 
+}
+
+.middle__plan{
+  background-color:rgb(100, 21, 255);
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  border-radius:8px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  padding: 8px 32px 0 32px;
+  margin: 64px 32px 0 0;
+  text-align: center;
+}
+
+.pricing__middle {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+  line-height: 26px;
+  border-bottom-style: solid;
+}
+
+.pricing__plan--features {
+  display: flex;
+  flex-direction: column;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  padding: 32px 0;
+  line-height: 26px;
+  border-color: rgb(226, 232, 240);
+}
+
+.pricing__button {
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  padding: 16px 0;
+  line-height: 26px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-color: rgb(226, 232, 240);
+}
+
+.pricing__button--middle {
+
+  padding: 18px 0;
+  line-height: 26px;
+
+}
+
+.buy__button1 {
+  width: 192px;
+  background-image: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.buy__button2 {
+  padding: 12px 32px;
+  color: white;
+  border-radius: 50px;
+  transition: all 300ms ease;
+  color: rgb(70, 15, 179);
+  font-weight: bold;
+  white-space: nowrap;
+  width: 192px;
+  background-color: rgb(226, 232, 240);
+}
+.buy__button3 {
+  background-image: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+  width: 192px;
 }
