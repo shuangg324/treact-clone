@@ -379,3 +379,48 @@ nav {
   --tw-text-opacity: 1;
   color: rgb(203 213 224 / var(--tw-text-opacity));
 }
+
+
+/*VALUES*/
+.values__container--left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  max-width: none;
+}
+
+.values__title {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.values__description {
+  margin-top: 16px;
+  text-align: left;
+  font-size: 48px;
+}
+
+.values__para {
+  margin-top: 16px;
+  text-align: left;
+  max-width: 472px;
+  padding-bottom: 24px;
+}
+
+.values__wrapper {
+  display: flex;
+}
+
+.values__text--wrapper{
+  display: flex;
+  
+}
+
+.values__container--right {
+  width: 50%;
+}
+
+.values__logo {
+  width:100%;
+}
