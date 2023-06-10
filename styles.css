@@ -497,8 +497,18 @@ nav {
   display: flex;
   flex-direction: column;
   width: calc(100% / 3);
-  padding: 8px 32px 0 32px;
-  margin: 64px 32px 0 0;
+  margin: 64px 32px 20px 0;
+  text-align: center;
+
+}
+
+.middle__plan{
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+  border-radius:8px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  margin: 64px 32px 20px 0;
   text-align: center;
 }
 
@@ -530,43 +540,31 @@ nav {
   flex-direction: column;
   border-bottom-style: solid;
   border-right-style: solid;
-
+  font-weight:bold;
   border-left-style: solid;
-  padding: 32px 0;
-  line-height: 26px;
   border-color: rgb(226, 232, 240);
+  padding: 32px 0;
 }
 
 .pricing__plan--middle {
   display: flex;
   flex-direction: column;
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
+  
+  font-weight:bold;
   color: rgb(247, 250, 252);
-  padding: 34px 0;
-  line-height: 26px;
-
- 
+  padding: 32px 0;
 }
 
-.middle__plan{
-  background-color:rgb(100, 21, 255);
-  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
-  border-radius:8px;
-  display: flex;
-  flex-direction: column;
-  width: calc(100% / 3);
-  padding: 8px 32px 0 32px;
-  margin: 64px 32px 0 0;
-  text-align: center;
-}
+
 
 .pricing__middle {
   display: flex;
   flex-direction: column;
   padding: 32px 0;
   line-height: 26px;
-  border-bottom-style: solid;
+  border-top-color: rgb(102, 126, 234);
+  border-top-style: solid;
+  border-top-width: 2px;
 }
 
 .pricing__plan--features {
@@ -595,7 +593,9 @@ nav {
 
   padding: 18px 0;
   line-height: 26px;
-
+  border-top-color: rgb(102, 126, 234);
+  border-top-style: solid;
+  border-top-width: 2px;
 }
 
 .buy__button1 {
@@ -626,3 +626,24 @@ nav {
   );
   width: 192px;
 }
+
+.price, .price__middle{
+  font-size:48px;
+  margin: 32px 0;
+}
+
+.name, .name__middle{
+  font-size:20px;
+}
+
+.duration__middle{
+  letter-spacing:1.6px;
+}
+
+.duration{
+  letter-spacing:1.6px;
+  --tw-text-opacity: 1;
+  color: rgb(160 174 192 / var(--tw-text-opacity));
+  font-weight:bold;
+}
+
