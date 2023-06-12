@@ -497,7 +497,7 @@ nav {
   font-weight: bold;
   letter-spacing: 1.2px;
   line-height: 72px;
-  margin-top:16px;
+  margin-top: 16px;
 }
 
 .pricing__para {
@@ -695,7 +695,7 @@ nav {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.5px;
-  font-weight:bold;
+  font-weight: bold;
   color: rgb(247, 250, 252);
 }
 
@@ -712,3 +712,95 @@ nav {
 }
 
 /*TESTIMONIALS*/
+.testimonials__container {
+  display: flex;
+}
+
+.testimonials__left{
+  width:50%;
+}
+.testimonials__right{
+  width:50%;
+  padding-left:64px;
+}
+.testimonials__img {
+  max-width: 100%;
+  height:auto;
+}
+
+.rating {
+  display: flex;
+}
+
+.star{
+  color: rgb(246, 173, 85);
+  fill: rgb(246, 173, 85);
+  height:28px;
+  line-height:24px;
+  margin-right:4px;
+  width:20px;
+  text-align: left;
+  vertical-align:middle;
+}
+
+.testimonials__description{
+  font-size:48px;
+  font-weight:bold;
+}
+
+.testimonials__title{
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+
+.charlotte__img{
+  border:2px solid black;
+  border-radius:9999px;
+  border:none;
+  height:80px;
+  max-width:100%;
+  line-height:24px;
+}
+.customer__wrapper{
+  display: flex;
+  margin-top:32px;
+}
+
+.customer__text{
+  display: flex;
+  flex-direction: column;
+  margin-left:24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer__name{
+  font-size:20px;
+  line-height:30px;
+  font-weight:bold;
+}
+
+.customer__title{
+  line-height:24px;
+}
+
+.testimonials__description {
+ margin:24px 0;
+}
+
+.tpara{
+  color: rgb(124, 139, 161);
+  margin: 0 0 48px 0;
+}
+  
+.review__title{
+  font-weight:bold; 
+  font-size:20px;
+  line-height:30px;
+  margin: 16px 0;
+}
+
+.customer__para{
+  margin:32px 0;
+}
