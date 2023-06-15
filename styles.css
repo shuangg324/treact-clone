@@ -903,3 +903,53 @@ nav {
   width: 320px;
   transform: translateY(-436px) translateX(948px);
 }
+
+/*FOOTER*/
+
+.footer__container{
+  background-color:rgb(100, 21, 255);
+}
+.footer__links--wrapper{
+  display: flex;
+  width:100%;
+  border-bottom-style:solid;
+  border-bottom-width: 2px;
+  border-bottom-color:rgba(247, 250, 252, 0.975);
+  justify-content: space-between;
+}
+
+.footer__links--list{
+  padding:80px 0;
+  color:white;
+}
+
+.footer__links--title{
+  margin-bottom:30px;
+  font-weight:bold;
+}
+
+.footer__link{
+  margin-top:16px;
+}
+.footer__links{
+  padding-bottom:4px;
+  color:white;
+  font-size:16px;
+  font-weight:300;
+  border-bottom: 2px solid transparent;
+}
+
+.footer__links:hover{
+  cursor:pointer;
+  transition: all 300ms ease;
+  border-color:white;
+}
+
+.footer__bottom--wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__img{
+  font-size:64px;
+}
