@@ -95,14 +95,22 @@ nav {
 }
 
 .btn__menu--close{
-  color:white;
+  color:#5522ad;
   right:20px;
+  top:21px;
+  position:absolute;
+  cursor:pointer;
 }
 
 
 .menu__backdrop{
   position:absolute;
-  background-color: #242424;
+  background-color:white;
+  border:1px solid rgb(204, 204, 204);
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   top:0;
   left:0;
   right:0;
@@ -114,12 +122,21 @@ nav {
   transition: all 300ms ease;
   opacity:0;
   visibility: hidden;
+  height:55vh;
+  margin: 16px;
 }
 
 .menu--open .menu__backdrop {
   visibility:visible;
   opacity:1;
 }
+
+.menu__list{
+  padding:18px 0;
+  text-align: center;
+}
+
+
 
 .logo__img {
   width: 50px;
@@ -1054,7 +1071,7 @@ footer {
   position: relative;
 }
 
-/* small phones,tablets, large smartphones */
+/*tablets, large smartphones */
 @media (max-width: 1000px) {
   .row {
     flex-direction: column;
@@ -1080,6 +1097,13 @@ footer {
     justify-content: center;
   }
 
+  .customer__logos{
+    text-align: center;
+  }
+
+  .customer__logos--para{
+    margin-bottom:8px;
+  }
   .services__container {
     display: flex;
     align-items: center;
@@ -1164,4 +1188,27 @@ footer {
   .footer__container {
     padding: 0 16px;
   }
+}
+
+/*small phones*/
+@media(max-width:728px){
+  .row {
+    flex-direction: column;
+  }
+
+  .header__left{
+    display: flex;
+    
+    text-align: center;
+  }
+  
+  .email__btn {
+
+    
+
+
+  }
+
+
+
 }
