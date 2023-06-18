@@ -478,7 +478,7 @@ nav {
 .values__text--title {
   margin-left: 12px;
   font-size: 24px;
-  font-weight: ;
+  font-weight: bold;
 }
 
 .values__icon--left {
@@ -764,6 +764,8 @@ nav {
 }
 
 /*TESTIMONIALS*/
+
+
 .testimonials__container {
   display: flex;
 }
@@ -1115,6 +1117,7 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
   .services {
     width: calc(100% / 2);
   }
@@ -1250,7 +1253,6 @@ footer {
   .quality__container--right {
     width: 75%;
     margin-bottom: 24px;
-    
   }
 
   .quality__container--left {
