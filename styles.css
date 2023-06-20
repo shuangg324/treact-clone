@@ -1226,7 +1226,7 @@ footer {
   }
 }
 
-/*small phones*/
+/*small phones, small tablets*/
 @media (max-width: 728px) {
   .row {
     flex-direction: column;
